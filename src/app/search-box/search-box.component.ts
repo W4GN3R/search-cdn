@@ -13,7 +13,7 @@ export class SearchBoxComponent implements OnInit {
 
   contactForm: FormGroup;
   searchTerm = new Subject<string>();
-  baseUrl = "http://api.cdnjs.com/libraries";
+  baseUrl = "api.cdnjs.com/libraries";
   queryUrl = "?search=";
   @Output() loading: EventEmitter<boolean> = new EventEmitter<boolean>();
   @Output() searchResults: EventEmitter<any> = new EventEmitter<any>();
