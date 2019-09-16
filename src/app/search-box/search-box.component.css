@@ -1,0 +1,38 @@
+label {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+label input, textarea {
+  margin-bottom: 20px;
+  padding: 1em;
+  margin-left: 10px;
+  height: 10px;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}
+
+label input:focus, textarea:focus {
+  outline: 0;
+}
+
+.error {
+margin-top: -20px;
+background: yellow;
+padding: 5em;
+display: inline-block;
+font-size: 9em;
+margin-bottom: 20px;
+}
+
+strong {
+display: block;
+}
+
+span {
+margin-bottom: 20px;
+display: block;
+}

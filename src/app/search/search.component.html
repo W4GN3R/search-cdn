@@ -1,0 +1,7 @@
+<h1>Bibliotecas CDNJS </h1>
+
+<app-search-box (loading)="loading = $event" (searchResults)="updateResult($event)"></app-search-box>
+
+<small *ngIf="loading">Pesquisando...</small>
+
+<app-search-result *ngIf="loading == false" [searchResults]="searchResults"></app-search-result>

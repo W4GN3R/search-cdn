@@ -1,0 +1,9 @@
+<div class="list-group" >
+  <ul>
+    <li  class="list-group-item list-group-item-action" *ngFor="let result of searchResults.results | slice:0:9">
+      <a href="{{baseUrl + result.name}}" target="_blank">
+        {{result.name}}
+      </a>
+    </li>
+  </ul>
+</div>
